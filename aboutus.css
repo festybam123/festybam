@@ -1,0 +1,224 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+ul{
+    padding: 3px;
+    margin: 1px;
+    width: 35%;
+    flex-direction: row;
+    display: flex;
+    float: right;
+}
+
+ul li{
+      list-style-type: none;
+}
+
+ul li :hover{
+    border: 5px solid black;
+    background-color: black;
+    color: chocolate;
+}
+
+ul a{
+    position: fixed;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+li{
+    border: 1px solid transparent;
+    margin: auto;
+    padding: 2px;
+}
+
+.head_cnt{
+    margin-top: 15px;
+    text-align: center;
+}
+
+span h1{
+    font-size: 300%;
+    font-weight:900;
+    color: chocolate;
+}
+
+.article_cnt{
+    font-size: larger;
+    margin-left: 20%;
+}
+
+.img_cnt{
+    display: flex;
+}
+
+.form_cnt{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+form{
+    width: 30%;
+    height: 75%;
+    margin-right: 75px;
+    border: 1px solid gray;
+    background-color: aquamarine;
+}
+
+label{
+    margin-left: 20px;
+}
+
+input{
+    height: 30px;
+    width: 75%;
+    margin-left: 20px;
+}
+
+option{
+    margin-left: 20px;
+}
+
+select{
+    height: 30px;
+    width: 75%;
+    margin-left: 20px;
+}
+
+.form_cnt button{
+    background-color: black;
+    margin: 25px;
+    width: 25%;
+    height: 40px;
+    color: white;
+    font-size: larger;
+}
+
+.button_text{
+    width: 75%;
+    height: 100px;
+}
+
+form h1{
+    margin: 15px;
+    color: chocolate;
+}
+
+.text_cnt{
+    margin-top: 75px;
+}
+
+.text_cnt h1{
+    color: chocolate;
+    font-weight:900;
+}
+
+.article2_cnt{
+    font-size: larger;
+}
+
+
+.footer_container{
+    margin-top: 10px;
+    padding: 0px;
+    height: 250px;
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+}
+
+.footer_heading{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.footer_heading h2{
+    margin-bottom: 10px;
+}
+
+.footer_heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer_heading :hover{
+    color: red;
+}
+
+.input1_cnt{
+    margin-top: 100px;
+}
+
+.input2_cnt{
+    margin-top: 10px;
+    padding: -5px;
+}
+
+.input2_cnt input{
+    width: 55%;
+    height: 40px;
+}
+
+.input2_cnt button{
+    width: 30%;
+    height: 40px;
+    background-color: red;
+}
+
+.input2_cnt h2{
+    font-size: larger;
+    margin-top: 5px;
+}
+.icon_cnt{
+    margin-top: 7px;
+}
+
+
+.icon_cnt :hover{
+    color: purple;
+    transition: ease-in-out 1s;
+}
+
+
+.input1_cnt a{
+    text-decoration: none;
+}
+
+.input1_cnt a h2{
+    color: white;
+    font-size: x-large;
+}
+
+.icon_cnt a i{
+    font-size: x-large;
+    padding: 5px;
+    color: white;
+}
+
+.footer_line{
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.footer_line span{
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.692);
+}
+ 

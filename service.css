@@ -1,0 +1,248 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.head_link{
+    margin: auto;
+}
+
+ul{
+    padding: 3px;
+    margin: 1px;
+    width: 35%;
+    flex-direction: row;
+    display: flex;
+    float: right;
+}
+
+ul li :hover{
+    border: 5px solid black;
+    background-color: black;
+    color: chocolate;
+}
+
+ul li{
+      list-style-type: none;
+}
+
+ul a{
+    position: fixed;
+    color: wheat;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+}
+
+
+li{
+    border: 1px solid transparent;
+    margin: auto;
+    padding: 2px;
+}
+
+
+
+.border_cnt{
+    border: 1px solid gray;
+    background-color: #a52a2a;
+    border-spacing: 200px;
+}
+
+
+
+span{
+    color: white;
+    margin: 20px;
+    font: 1em sans-serif;
+    font-size: larger;
+}
+
+.box_cnt h1 span{
+    font-size: 50px;
+    margin: 20px;
+}
+.box_cnt input{
+    margin: 20px;
+}
+
+.box_cnt h1{
+    margin: 20px;
+}
+
+.box_cnt{
+    margin-left: 15px;
+}
+
+.picture1_cnt img{
+    margin-top: 10px;
+    width: 35%;
+    float: right;
+}
+
+.article1_cnt{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.body1_cnt span{
+    color: black;
+}
+
+.body1_cnt input{
+    text-align: center;
+    width: 15%;
+    height: 40px;
+}
+
+.body1_cnt a input{
+    background-color: blue;
+}
+
+.article2_cnt{
+    border: 1px solid white;
+    margin-left: 100px;
+}
+
+.picture2_cnt img{
+    width: 60%;
+}
+
+.picture2_cnt{
+    justify-content: right;
+    float: right;
+    position: relative;
+    width: 55%;
+}
+
+.body2_cnt span h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body2_cnt span{
+    color: black;
+}
+
+.article3_cnt{
+    border: 1px solid white;
+    background-color: brown;
+}
+
+.body3_cnt{
+    float: right;
+    margin: auto;
+}
+
+.body3_cnt span h1{
+    margin-right: 400px;
+    font-size: 350%;
+}
+
+.body3_cnt span{
+    justify-content: center;
+    font-size: 100%;
+}
+
+.picture3_cnt{
+    width: 90%;
+}
+
+
+.footer_container{
+    margin-top: 10px;
+    padding: 0px;
+    height: 200px;
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+}
+
+.footer_heading{
+    display: flex;
+    flex-direction: column;
+    margin: 110px;
+}
+
+.footer_heading h2{
+    margin-bottom: 20px;
+}
+
+.footer_heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.footer_heading :hover{
+    color: red;
+}
+
+.input1_cnt{
+    margin-top: 100px;
+}
+
+.input2_cnt{
+    margin-top: 10px;
+    padding: -5px;
+}
+
+.input2_cnt input{
+    width: 55%;
+    height: 40px;
+}
+
+.input2_cnt button{
+    width: 30%;
+    height: 40px;
+    background-color: red;
+}
+
+.input2_cnt h2{
+    font-size: larger;
+    margin-top: 5px;
+}
+.icon_cnt{
+    margin-top: 7px;
+}
+
+
+.icon_cnt :hover{
+    color: purple;
+    transition: ease-in-out 1s;
+}
+
+
+.input1_cnt a{
+    text-decoration: none;
+}
+
+.input1_cnt a h2{
+    color: white;
+    font-size: x-large;
+}
+
+.icon_cnt a i{
+    font-size: x-large;
+    padding: 5px;
+    color: white;
+}
+
+.footer_line{
+    text-align: center;
+}
+
+hr{
+    margin-top: 100px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.footer_line span{
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.692);
+}
+ 

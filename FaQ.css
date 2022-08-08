@@ -1,0 +1,300 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.nav_link{
+    position: fixed;
+    width: 100% ;
+    border: 0px solid gray;
+    background-color: black;
+    height: 100px;
+}
+
+select{
+    background-color: blue;
+    float: right;
+    margin-right: 35px;
+    color: white;
+    margin-top: 30px;
+    height: 35px;
+}
+
+option{
+    font-size: large;
+}
+
+.my_search{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.search_cnt input{
+    width: 25%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 15px;  
+}
+
+.input_cnt input{
+    text-align: center;
+    height: 45px;
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 15px;
+}
+
+
+.faq_cnt{
+    float: left;
+    margin-left: 10px;
+}
+
+.faq_cnt h1{
+    color: white;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.logo_nav img{
+    float: left;
+    height: 75px;
+    margin-left: 15px;
+}
+
+.article1_cnt{
+    display: flex;
+    margin-left: 100px;
+}
+
+.picture1_cnt img{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 120px;
+}
+
+.text1_cnt{
+    font-size: x-large;
+    margin: 25px;
+    color: gray;
+    margin-top: 170px;
+}
+
+.text1_cnt input{
+    width: 55%;
+    height: 45px;
+    background-color: rgba(255, 0, 0, 0.753);
+}
+
+.text1_cnt ::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+.article2_cnt{
+    margin-left: 400px;
+    margin-top: 45px;
+}
+
+.article2_cnt span{
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.article2_cnt p{
+    font-stretch: extra-expanded;
+    font-weight: lighter;
+}
+
+.article_link{
+    margin-left: 420px;
+}
+
+.article_link li a{
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.article_link div a{
+    margin: 25px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.article3_cnt{
+    margin-left: 400px;
+    margin-top: 45px;
+    border: 1px solid grey;
+    background-color:azure;
+    width: 55%;
+}
+
+.input_cnt input{
+    margin-top: 25px;
+    width: 95%;
+    height: 65px;
+    margin-left: 15px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+
+ ol li{
+    font-size: 20px ;
+    margin-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.article4_cnt{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.article4_cnt h2{
+    font-size: x-large;
+}
+
+.icon1_cnt{
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.icon2_cnt :hover{
+    color: purple;
+    transition: ease-in-out 1s;
+}
+
+.icon1_cnt i{
+    font-size: xx-large;
+    padding: 25px;
+    color: purple;
+} 
+hr{
+    margin: 100px;
+}
+.text_cnt h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.picture2_cnt{
+    display: flex;
+    text-align: center;
+}
+
+.gallery img{
+    width: 75%;
+    padding: 20px;
+    
+}
+
+.gallery a h2{
+    font-size: x-large;
+}
+
+.gallery a{
+    text-decoration: none;
+}
+
+.gallery a h2{
+    border: px solid gray;
+    background-color: aliceblue;
+    width: 75%;
+    margin-left: 65px;
+    height: 300px;
+    font-size: xx-large;
+}
+
+
+.footer_container{
+    margin-top: 10px;
+    padding: 0px;
+    height: 250px;
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+}
+
+.footer_heading{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.footer_heading h2{
+     margin-bottom: 10px;
+}
+
+.footer_heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer_heading :hover{
+    color: red;
+}
+
+.input1_cnt{
+    margin-top: 100px;
+}
+
+.input2_cnt{
+    margin-top: 10px;
+    padding: -5px;
+}
+
+.input2_cnt input{
+    width: 55%;
+    height: 40px;
+}
+
+.input2_cnt button{
+    width: 30%;
+    height: 40px;
+    background-color: red;
+}
+
+.input2_cnt h2{
+    font-size: larger;
+    margin-top: 5px;
+}
+.input1_cnt a{
+    text-decoration: none;
+}
+
+.input1_cnt a h2{
+    color: white;
+    font-size: x-large;
+}
+
+
+.icon2_cnt{
+    margin-top: 7px;
+}
+
+
+.icon2_cnt a i{
+    font-size: x-large;
+    padding: 5px;
+    color: white;
+}
+
+ 
+
+
+
+
+
+
+
+
